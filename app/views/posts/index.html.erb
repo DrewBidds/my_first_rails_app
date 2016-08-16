@@ -4,4 +4,5 @@
   <h2> <%= post.title %> </h2>
   <%= link_to 'Show Post', post_path(post) %>
   <%= link_to 'Edit', edit_post_path(post) %>
+  <%= link_to 'Destroy Post', post_path(post), method: :delete %>
 <% end %>
